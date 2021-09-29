@@ -48,7 +48,7 @@ const HalfAdder = (a, b) => {
 const FullAdder = (ci, a, b) => {
   const [s1, co1] = HalfAdder(a, b);
   const [s2, co2] = HalfAdder(s1, ci);
-  return [s2, OR(co1, co2)]
+  return [+s2, +OR(co1, co2)]
 }
 
 // 八位加法器
