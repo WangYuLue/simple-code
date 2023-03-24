@@ -98,6 +98,6 @@ const EightBitMinus = (arr1, arr2) => {
 }
 
 console.log(EightBitMinus(
-  [0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0, 1],
+  [1, 1, 1, 0, 1, 0, 0, 0],
+  [0, 1, 0, 1, 0, 1, 0, 1],
 ));
